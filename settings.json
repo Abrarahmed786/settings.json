@@ -1,0 +1,116 @@
+{
+    "geminicodeassist.project": "aviato-ai-code",
+    "database-client.autoSync": true,
+    "containers.containerClient": "com.microsoft.visualstudio.containers.docker",
+    "containers.orchestratorClient": "com.microsoft.visualstudio.orchestrators.dockercompose",
+    "geminicodeassist.displayInlineContextHint": false,
+    "workbench.colorTheme": "Monokai",
+    "workbench.iconTheme": "material-icon-theme",
+    "window.zoomLevel": 0.5,
+    "editor.fontFamily": "Victor Mono, monospace",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 14,
+    "editor.lineHeight": 22,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.minimap.enabled": false,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": false,
+    "editor.wordWrap": "on",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": true,
+    "editor.renderWhitespace": "selection",
+    "editor.smoothScrolling": true,
+    "editor.cursorBlinking": "smooth",
+    "editor.inlayHints.enabled": "on",
+    "editor.semanticHighlighting.enabled": true,
+    "dart.previewFlutterUiGuides": true,
+    "dart.closingLabels": true,
+    "dart.lineLength": 100,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "typescript.suggest.autoImports": true,
+    "javascript.suggest.autoImports": true,
+    "typescript.preferences.importModuleSpecifier": "non-relative",
+    "javascript.preferences.importModuleSpecifier": "non-relative",
+    "terminal.integrated.fontFamily": "Victor Mono, monospace",
+    "terminal.integrated.fontSize": 13,
+    "explorer.compactFolders": false,
+    "files.autoSave": "onFocusChange",
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "keyword",
+                    "storage.type"
+                ],
+                "settings": {
+                    "fontStyle": "bold",
+                    "foreground": "#C792EA"
+                }
+            },
+            {
+                "scope": [
+                    "entity.name.type",
+                    "support.class"
+                ],
+                "settings": {
+                    "foreground": "#82AAFF"
+                }
+            },
+            {
+                "scope": [
+                    "variable.other.readwrite",
+                    "variable.parameter"
+                ],
+                "settings": {
+                    "foreground": "#E6E6E6"
+                }
+            },
+            {
+                "scope": [
+                    "string"
+                ],
+                "settings": {
+                    "foreground": "#C3E88D"
+                }
+            },
+            {
+                "scope": [
+                    "constant.numeric"
+                ],
+                "settings": {
+                    "foreground": "#F78C6C"
+                }
+            },
+            {
+                "scope": [
+                    "keyword.operator"
+                ],
+                "settings": {
+                    "foreground": "#89DDFF"
+                }
+            },
+            {
+                "scope": [
+                    "comment"
+                ],
+                "settings": {
+                    "foreground": "#5C6370",
+                    "fontStyle": "italic"
+                }
+            }
+        ]
+    },
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+        "typescript": "typescriptreact"
+    },
+    "editor.largeFileOptimizations": false,
+    "http.systemCertificatesNode": true,
+    "claudeCode.preferredLocation": "panel",
+    "cursor.cpp.enablePartialAccepts": true,
+    "diffEditor.codeLens": true,
+    "window.autoDetectColorScheme": false,
+    "terminal.integrated.mouseWheelScrollSensitivity": 3
+}
